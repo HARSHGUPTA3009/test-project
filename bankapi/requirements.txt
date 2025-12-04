@@ -5,6 +5,7 @@ graphene-django==3.1.5
 graphql-core==3.2.3
 graphql-relay==3.2.0
 promise==2.3
-psycopg[binary]==3.1.18
+psycopg2-binary==2.9.9
+
 sqlparse==0.5.1
 typing_extensions==4.10.0
