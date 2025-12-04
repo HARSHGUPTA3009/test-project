@@ -1,11 +1,24 @@
-asgiref==3.8.1
-Django==5.0.3
-graphene==3.3
-graphene-django==3.1.5
-graphql-core==3.2.3
+asgiref==3.11.0
+Django==6.0
+graphene==3.4.3
+graphene-django==3.2.3
+graphql-core==3.2.7
 graphql-relay==3.2.0
 promise==2.3
-psycopg2-binary==2.9.9
+python-dateutil==2.9.0.post0
+six==1.17.0
+sqlparse==0.5.4
+text-unidecode==1.3
+typing_extensions==4.15.0
 
-sqlparse==0.5.1
-typing_extensions==4.10.0
+# Database
+psycopg2-binary==2.9.11
+
+# Deployment
+gunicorn==22.0.0
+whitenoise==6.7.0
+dj-database-url==2.2.0
+
+# Build helpers
+setuptools>=65
+wheel
